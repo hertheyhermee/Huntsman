@@ -479,6 +479,9 @@ body {
   animation: move 2s ease-in-out infinite alternate;
 }
 
+.section-title {
+  margin-bottom: 20px;
+}
 .about :is(.section-title, .section-text) { margin-block-end: 20px; }
 
 .about-list { margin-block-end: 40px; }
@@ -646,6 +649,15 @@ body {
   text-transform: uppercase;
   margin-block-start: 5px;
   transition: var(--transition);
+}
+
+.project-card p {
+  text-align: center;
+  padding: 10px 0 5px 0;
+}
+
+.project-card h3 {
+  text-align: center;
 }
 
 .project-list {
